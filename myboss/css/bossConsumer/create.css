@@ -1,0 +1,17 @@
+#account {
+	border:9px solid #4f0;
+	width:100%; /*设定宽度*/
+}
+
+#ac_left {
+	 float:left; /*浮动居左*/
+	 width:40%; /*设定宽度*/
+	 background: #ccd2de; 
+
+
+}
+#ac_right {
+	float:right; /*浮动居右*/
+	 width:60%;
+    background: #F2F3F7;
+}

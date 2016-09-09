@@ -1,0 +1,144 @@
+body{
+	text-align:center;
+	margin:auto;
+	font-family:宋体;
+}
+
+#container{
+	width:980px;
+
+	
+	margin: 1px auto;
+	padding:1px auto;
+
+
+}
+
+#headerx{
+	width:100%;
+	height:20px;
+	/* border:2px solid red; */
+	font-size:12px;
+	
+
+
+}
+
+#biaozhi{
+	float:left;
+	width:35%;
+	margin-left:20px;
+	margin-top:5px;
+}
+
+#loginx{
+	float:left;
+	padding-left:130px;
+	width:20%;
+	margin-top:5px;
+}
+
+#menux{
+	float:right;
+	width:25%;
+	margin-top:5px;
+	padding-right:10px;
+	
+}
+
+#barx{
+	width:100%;
+	height:80px;
+	background-color:red;
+}
+#barx-left{
+	float:left;
+	width:30%;
+	height:80px;
+/* 	border:2px solid green; */
+}
+
+#barx-right{
+	float:right;
+	height:80px;
+	width:65%;
+}
+
+#barx-title{
+	font-size:30px;
+	margin-left:60px;
+	padding-top:25px;
+}
+
+/* ul li以横排显�?*/  
+      
+    /* 所有class为menu的div中的ul样式 */  
+    div.barx-right ul  
+    {  
+        list-style:none; /* 去掉ul前面的符�?*/  
+        margin: 0px; /* 与外界元素的距离�? */  
+        padding: 100px auto; /* 与内部元素的距离�? */  
+        width: auto; /* 宽度根据元素内容调整 */  
+		padding-right:100px;
+		
+    }  
+    /* 所有class为menu的div中的ul中的li样式 */  
+    div.barx-right ul li  
+    {  
+        float:right; /* 向左漂移，将竖排变为横排 */  
+		
+		
+    }  
+    /* 所有class为menu的div中的ul中的a样式(包括尚未点击的和点击过的样式) */  
+    div.barx-right ul li a, div.barx-right ul li a:visited  
+    {  
+        background-color: #f0000; /* 背景�?*/  
+	
+        //border: 1px #4e667d solid; /* 边框 */  
+        color: #dde4ec; /* 文字颜色 */  
+        display: block; /* 此元素将显示为块级元素，此元素前后会带有换行�?*/  
+        line-height: 80px; /* 行高 */  
+        padding: 0px 20px; /* 内部填充的距�?*/  
+        text-decoration: none; /* 不显示超链接下划�?*/  
+        white-space: nowrap; /* 对于文本内的空白处，不会换行，文本会在在同一行上继续，直到遇�?<br> 标签为止�?*/  
+    }  
+    /* 所有class为menu的div中的ul中的a样式(鼠标移动到元素中的样�? */  
+    div.barx-right ul li a:hover  
+    {  
+        background-color: #bfcbd6; /* 背景�?*/  
+        color: #465c71; /* 文字颜色 */  
+        text-decoration: none; /* 不显示超链接下划�?*/  
+    }  
+    /* 所有class为menu的div中的ul中的a样式(鼠标点击元素时的样式) */  
+    div.barx-right ul li a:active  
+    {  
+        background-color: #465c71; /* 背景�?*/  
+        color: #cfdbe6; /* 文字颜色 */  
+        text-decoration: none; /* 不显示超链接下划�?*/  
+    }  
+	
+	#pagebody{
+		width:100%;
+		border-color:#000; border-style:solid; border-width:1px;
+		text-align:center;
+
+	
+		
+
+	}
+
+	
+	
+
+
+	
+	#footer{
+	    float:left;
+		width:100%;
+		height:40px;
+		background-color:gray;
+		text-align:center;
+		padding-top:20px;
+		
+	}
+	
